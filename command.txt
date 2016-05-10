@@ -1,0 +1,67 @@
+Git command line
+
+git config --global user.email thanhson1085@gmail.com
+git config --global user.name thanhson
+
+git config --local user.email 'test@test.com'
+git config --local user.nanme 'test'
+
+git config --local  --unset user.email 
+
+git init .
+
+rm -rf .git/l
+git init .
+
+git remote add origin[ten remote] https://github.com/thanhvk/master-git.git
+
+git push origin master
+
+git add -A
+
+git remote
+git remote remove origin
+cat .git/config
+cat ~/.gitconfig
+
+cd ./git
+
+git log 
+git log --oneline
+git log --graph
+git log --graph --all 
+git log --graph --all decorate=full
+git log --oneline|awk '{print $1}'
+git log --oneline|grep mai
+
+git log --graph --all decorate=full README.md
+
+git diff a26af af15e 
+git diff a26af af15e --name-only
+git diff a26af af15e README.md
+
+List commit tren local
+git reflog 
+
+git stash (van co the pull ma khong can commit)
+git stash list
+git stash apply
+
+Ctrl F
+Ctrl B
+exit q
+
+Domain slack name
+master-git01.slack.com
+
+========================================================
+
+Linux
+
+vi ~/.gitconfig
+exit: q
+ls -lart
+history
+cat
+less
+
