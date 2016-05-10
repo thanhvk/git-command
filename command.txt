@@ -1,3 +1,5 @@
+Change on server to test stash command
+
 Git command line
 
 git config --global user.email thanhson1085@gmail.com
